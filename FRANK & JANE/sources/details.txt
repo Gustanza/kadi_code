@@ -1,0 +1,23 @@
+Jina la familia ya: Emmanuel kaswalala
+Maji ya maharusi: Frank Emmanuel & Jane njovu
+Siku - jumamosi tarehe 7/11/2026
+Jina la kanisa: Mtakatifu mariam kurasini
+Mahali/ukumbi: NHC national house posta
+Dress code: dark chocolate, gold, mauve
+Mawasiliano: 0715-324709 Mr Chimbalibwa, 0622-872472 ms Mary George, 0655-910949 Agness kaswalala
+
+Blueprint: sources/blueprint_gold_green.jpg (copy of HANSEN & BLANDINA/HANSEN-BLANDINA-CARD-GOLD.jpg, 925x1280, rendered at 2.5x)
+No times given for kanisa or ukumbi. Badge left blank (system fills single/double).
+Correction (2026-10-30): Mr Chimbalibwa -> Mr Chimbwalimbwa  -> v1_final_02
+Correction (2026-10-31): Rangi -> Gilded Bronze (Amber Gold), Nude, Chocolate, Olive/Moss Green -> v1_final_03
+Layout (2026-10-31): Ibada/Ukumbi centred (v1_final_04); Rangi as centred 2x2 list with larger labels (v1_final_05)
+Rangi as name + colour-bar rows (v1_final_06)
+Rangi rows spaced out (v1_final_07)
+Contacts block centred on card (v1_final_08)
+All text enlarged ~20% and re-spaced (v1_final_09)
+Badge + QR moved down, lower sections spread out (v1_final_10)
+Client: background in one of the dress-code colours -> v1_final_11_{NUDE,GILDED_BRONZE,CHOCOLATE,OLIVE_GREEN} (same design, bg recoloured; light text on dark bgs)
+Background recolour redone: old yellow fully removed around frame/roses/ferns, pin + Haflaway cleaned (v1_final_11_*)
+Recolour v2 (2026-10-31): yellow cast-shadows along frame bars + tiny islands removed (v1_final_11_* overwritten)
+Client chose CHOCOLATE. Kanisa -> 'Kanisa Anglican la Mtakatifu Mariam - Kurasini' (v1_final_12_CHOCOLATE)
+Times added: Kanisa saa 8:00 mchana, Ukumbi kuanzia saa 12:00 jioni (v1_final_13_CHOCOLATE)

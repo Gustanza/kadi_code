@@ -1,0 +1,20 @@
+BRENDA MWAKIPESILE
+Blueprint: sources/blueprint_white_gold_arch.jpeg (identical to ELIAS & JANE/sources/artworks.jpeg - white & gold arch + photo panel)
+Photos (from ~/Downloads, full-res originals):
+  photo_G79F6858.jpeg (3672x5140) - front-facing, smiling, bouquet held low, balcony at dusk  <- best fit for the portrait panel
+  photo_G79F6869.jpeg (3686x4607) - angled pose, bouquet raised, arm on railing
+Details: pending (event type, family, date, venue/time, rangi, contacts)
+
+--- client details (2026-11-06) ---
+FAMILIA YA GODIAN MWAKIPESILE
+BINTI YAO BRENDA MWAKIPESILE   -> send-off (sherehe ya kumuaga)
+SIKU 14/11/2026                -> Jumamosi, 14 Novemba 2026
+ENEO MATUNDA GARDEN            (no time given)
+MAWASILIANO 067 851 7545, +255 788 408 839  (no names given)
+Dress code: White, black & Emerald green
+Photo used: photo_G79F6858.jpeg
+v1_final_01 built (send-off, arch blueprint, photo G79F6858, official logo). Build: sources/build_v1.py
+v1_final_02: photo centred on Brenda (cx 0.546) and zoomed out slightly so both arms fit
+2026-11-06 v1_final_03: Ukumbi changed to 'Tengeru - Matunda Garden' (client: 'Apo ukumbi iwe ni Tengeru- matunda garden')
+2026-11-06 v1_final_04: added muda wa ukumbini 'Saa 9:00 mchana' (15:00) under the venue, gold; Ukumbi/Rangi/Mawasiliano blocks re-spaced slightly
+2026-11-06 v1_final_05: gold name 'Brenda Mwakipesile' centred vertically between 'kumtakia kheri...' and 'itakayofanyika Jumamosi' (62px gap each side)

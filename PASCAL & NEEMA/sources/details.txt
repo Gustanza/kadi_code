@@ -1,0 +1,11 @@
+1. Jina la Familia: KULWA KULWA
+2. Majina ya Maharusi: Paschal machupa & Neema Hezron
+3. Jumamosi, 31 October 2026 - saa 7 mchana kanisani (ndoa), saa 12 jioni ukumbini
+4. Kanisa: Parokia ya mtakatifu yohana mtume - Dodoma mjini
+5. Ukumbi: Mesuma hotel
+6. Rangi: purple, lavender, pink
+7. Mawasiliano: Gladness 0796295929, Husein 0769272202
+Blueprint: sources/blueprint_lavender.jpg (ekadi lavender oval). Badge left blank (system fills single/double).
+
+--- 2026-10-29 ---
+Layout: content block moved up ~70px (less empty space under the oval top), details rows spaced out -> v1_final_02

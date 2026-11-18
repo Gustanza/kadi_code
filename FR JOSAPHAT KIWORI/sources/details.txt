@@ -1,0 +1,44 @@
+FR. JOSAPHAT KIWORI - JUBILEI YA MIAKA 25 YA UPADRISHO (JUBILEI YA SHABA) - KADI YA MCHANGO
+Sources (from ~/Downloads, 2026-11-12):
+  blueprint_priestly_anniversary.jpeg  <- WhatsApp Image 2026-11-12 at 8.34.32 AM.jpeg (Nigerian "10th Priestly Anniversary", 736x920)
+  details_mchango_card_jubilei25.png   <- final FR. Josaphat kadi ya mchango 25.png (existing cream card = data source)
+  photo_fr_josaphat.jpeg               <- WhatsApp Image 2026-11-12 at 9.48.29 AM.jpeg (full length, cassock, Passionist badge)
+  logo_crdb.png                        <- copied from JOSHUA MSETI/sources
+
+Data (verbatim from the source card):
+  JUBILEI YA MIAKA 25 YA UPADRISHO (JUBILEI YA SHABA) - REV. FR. JOSAPHAT KIWORI
+  "KUACHA ALAMA YA UTUMISHI NA UPENDO"
+  KADI YA MCHANGO WA JUBILEI (FUNDRAISING) - MPENDWA: ____
+  Unaalikwa katika kuchangia jubilei ya miaka 25 ya utumishi wa Fr. Josaphat; unaombwa mchango wako kwaajili ya
+  ujenzi wa Seminari (Nyumba ya Malezi ya Mwanzo).
+  Harambee itafanyika 15/11/2026 (= Jumapili). Lengo ni kuacha alama ya kudumu ya huduma katika shirika na jamii.
+  Account name: Passionist Fathers | Account number: 10508412245 | Bank: CRDB Bank
+  Tel: 0766777611 / 0783903800
+Mchango card -> no SINGLE/DOUBLE badge, no QR.
+
+2026-11-12 v1_final_01 (build_v1.py): blueprint purple layout. Parish logo/text -> KADI YA MCHANGO + motto;
+  "Cordially invites you" -> "Unaalikwa Kuchangia"; "To The Celebration Of The" -> "Jubilei ya Miaka";
+  10th priestly Anniversary -> 25 / ya Upadrisho / (Jubilei ya Shaba); template priest replaced by Fr. Josaphat cut-out
+  (backdrop behind rebuilt in the card's purple); panel: Rev. Fr. Josaphat Kiwori, Mpendwa line, appeal, Harambee
+  Jumapili 15/11/2026, CRDB logo + PASSIONIST FATHERS + 10508412245, Mawasiliano; Haflaway logo bottom.
+
+2026-11-12 v1_final_02 (build_v1.py): self-review against the source card.
+  + added "Lengo ni kuacha alama ya kudumu ya huduma katika shirika na jamii." (maroon italic, under Harambee); panel re-spaced
+  + cut-out cleaned: smooth sleeve outline (no pixel steps), yellow wall sliver between his right arm and body filled with
+    cassock, his left hand rebuilt (no leaf / gravel / chopped fingers)
+
+2026-11-12 client feedback (via Frank):
+  Mahali: Mikocheni B, Mwai Kibaki road, Gate No 413 - kibao kimeandikwa PASSIONIST FATHERS
+  Muda: saa 12 jioni - saa 5 usiku | Vinywaji na chakula vitakuwepo
+  "Ifanye iwe kadi ya mwaliko wa harambee, ila tuka attach means za kuchangia pia. Label kama kadi ya mwaliko."
+-> Fr_Josaphat_Kiwori_Mwaliko_v1_final_03: KADI YA MCHANGO -> KADI YA MWALIKO; "Unaalikwa Harambee / ya Jubilei ya Miaka";
+   name on one line; invitation line; Tarehe / Muda / Mahali rows; "Vinywaji na chakula vitakuwepo."; Michango: CRDB +
+   account kept; Mawasiliano kept. "Lengo ni..." sentence dropped for space (the motto at the top says the same).
+   No badge/QR yet (ask: harambee invite with system QR?).
+
+2026-11-12 user: "issue with fingers" (his left hand). In the photo that hand is mostly hidden (thumb tip + shadow), cut-out made a stub.
+  -> his clear right hand mirrored into the left-hand position (skin pixels only). Text unchanged. -> Fr_Josaphat_Kiwori_Mwaliko_v1_final_04
+
+2026-11-13 v1_final_05: photo swapped for the client cut-out ~/Downloads/Untitled design.pdf (kept as untitled_design.pdf;
+  rendered to photo_fr_josaphat_cutout.png 2250x3000 via Quick Look). White bg removed (incl. gaps arm/body), same size,
+  position and purple grade as before. Old GrabCut cut-out still in the script (CUTOUT=0). Text unchanged.

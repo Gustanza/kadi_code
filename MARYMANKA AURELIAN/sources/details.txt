@@ -1,0 +1,19 @@
+MARYMANKA AURELIAN - SEND-OFF (2026-11-16)
+Blueprint: ~/Downloads/artworks.jpeg -> blueprint_cream_rosegold_seal_arch.jpeg (2076x2717, Envaita cream & rose-gold arch panel,
+  wax seal, 3D cream/peach flowers; dummy "Joseph & Noela" wedding, Mr & Mrs Praygod Mangi guest, DOUBLE badge + QR, Envaita logo)
+Client text (verbatim):
+  Family ya Mr & Mrs Aurelian wa Kimara Bonyokwa Dar es salaam wanayofuraha kukualika kwenye hafla ya kumuaga Binti ya
+  Marymanka Aurelian siku ya jumatano tarehe 18/11/2026 itakayofanyika ktk ukumbi wa Modamba Hall uliompo Ghoba Center
+  kuanzia saa 12 jioni.
+  Butter yellow and brown
+  Sistu P Mallya 0754669897 / Theophan Pantaley 07825830 / Emmanuel Aurelian +255655659097
+Interpretation: Jumatano 18/11/2026 (weekday verified), kuanzia saa 12:00 jioni (18:00); "Binti ya" -> "binti yao";
+  "Ghoba Center" -> Goba Center (Dar es Salaam area) - CONFIRM; Modamba Hall kept as written.
+  Theophan Pantaley 07825830 = 8 digits -> NUMBER INCOMPLETE, shown as given, ask client.
+  No photo, no church. Rangi: Butter Yellow + Brown.
+v1_final_01 (build_v1.py, 1x): blueprint text/icons/chips/Envaita logo cleaned (solid shapes painted with local paper first);
+  Familia ya Mr & Mrs Aurelian wa Kimara Bonyokwa, Dar es Salaam, wanayo furaha kukualika/kuwaalika; blank guest line;
+  kwenye hafla ya kumuaga binti yao mpendwa; Marymanka (Great Vibes) + AURELIAN; itakayofanyika; calendar Jumatano 18 Novemba 2026 |
+  gold clock disc Muda: Kuanzia saa 12:00 jioni; pin Ukumbi: Modamba Hall - Goba Center; Rangi chips Butter Yellow (247,228,150) + Brown (111,71,42);
+  Mawasiliano: Sistu P. Mallya 0754 669 897, Theophan Pantaley 07825830 (INCOMPLETE), Emmanuel Aurelian 0655 659 097;
+  blank grey badge, QR placeholder, Haflaway logo in place of Envaita.

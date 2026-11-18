@@ -1,0 +1,57 @@
+JOHN PIMA - new card project (2026-11-11)
+Blueprint: blueprint_photo_white_sprigs.jpg (moved from KAREN MGWALU/1777347351003.jpg; 1395x1966, ekadi template with
+sample send-off text "Anna Josephat", photo fading into soft grey, white sprigs).
+Details still needed from the client.
+
+--- 2026-11-11 ---
+Client (WhatsApp 2026-11-10): John Samwel Pima na Vedastina Jovenary Mlaki. Jumamosi 28/11/2026, saa 12:00 jioni.
+Kanisa Anglican St. Paul's Ukonga. Ukumbi: Mwigo Empire Hall, Tabata Bima. Dress code: Black & Gold.
+Photo: sources/photo_john_vedastina.jpeg (from ~/Downloads, 720x1080 WhatsApp copy).
+v1_final_01 (sources/build_v1.py): wedding wording; couple cut out of their photo (red backdrop / green carpet removed) and placed on
+the blueprint's own beach scene; blank guest line, blank badge, QR placeholder, Haflaway logo.
+BOILERPLATE still to replace: family name + place, church time (saa XX:XX), both contact names + numbers.
+Assumed: saa 12:00 jioni = reception start (shown in the date block, as on the blueprint). Names on card: first names only.
+v1_final_02 (2026-11-11): couple zoomed in about 22% (scale 1.15 -> 1.4) and lowered so the bride's head stays clear of the white flowers. Text unchanged.
+v1_final_03 (2026-11-11): family line from client -> Familia ya Bw. & Bi. Pima John. Still boilerplate: 'wa XXXXX, XXXXX', church time, contacts.
+v1_final_04 (2026-11-11): client details -> wa Kitunda, Dar es Salaam; Mawasiliano: Samuel A. Mshote (M/kiti) 0754 277 980, Monica Mshote (Mwekahazina) 0686 967 238. Still boilerplate: church time (saa XX:XX).
+2026-11-11: client chose a NEW blueprint -> black & gold 3D flowers (ekadi Ekadi_109; same as Latifa v3 / Hafidh), copied to sources/blueprint_black_gold.jpg
+  v2_final_01 (build_v2.py): same content as v1_final_04; label rows Ibada / Ukumbi / Rangi (Black & Gold + 2 swatches) / Mawasiliano;
+  contacts indented under the label (long lines, clear of the gold sprigs); blank badge, QR placeholder, Haflaway logo. No couple photo on this design.
+  Still boilerplate: church time (saa XX:XX).
+2026-11-11: two couple photos from ~/Downloads (IMG-20261110-WA0017/18, 720x1080) -> sources/bg_photo_A.jpeg (standing together), bg_photo_B.jpeg (bouquet)
+  v3_final_01_PHOTO_A / _PHOTO_B: v2_final_01 + photo laid over the whole card, full height, 30% see-through, soft left/right edges,
+  photo darkened (VAL 0.82) and desaturated (SAT 0.7) so gold text stays readable; badge + QR kept untinted.
+  run: BGPHOTO=bg_photo_A.jpeg ALPHA=0.3 python build_v2.py John_&_Vedastina_v3_final_01_PHOTO_A.png
+  v3_final_02_PHOTO_A / _PHOTO_B (user: "the people are hidden behind flowers"): couple area laid at 60% (feathered hand polygon),
+  faces + hair at ~92% so they sit ON TOP of the corner flowers; soft dark glow behind all text (GLOW 0.6) for readability.
+  Plain v2_final_01 still rebuilds identically (diff 0).
+2026-11-11: photo-background drafts (v3) rejected by the client -> back to v2.
+  v2_final_02: v2_final_01 with every white text line (names, date, Ibada/Ukumbi/Rangi/Mawasiliano labels) turned gold like the rest. Badge pill + QR unchanged.
+2026-11-12: client wants the Deodatus & Victoria v2 design -> blueprint white & gold arch (ELIAS & JANE/sources/artworks.jpeg, copied as sources/blueprint_white_gold_arch.jpeg)
+  v4_final_01 (build_v4.py, base = BRENDA build_v1.py): left panel = photo_john_vedastina.jpeg faded to dark, names + 28.11.2026 + SAVE THE DATE (as Deodatus);
+  arch: family, guest line, harusi wording, names, date, Ibada ya Ndoa (saa XX:XX), Ukumbi saa 12:00 jioni, Rangi black/gold, Mawasiliano names+numbers; blank gold badge, QR placeholder, logo.
+2026-11-12: also tried the Deodatus v4 design -> black & gold ornate photo frame (ELIAS & JANE/sources/artwork-05.jpg, copied as sources/blueprint_black_gold_frame.jpg)
+  v5_final_01 (build_v5.py - first saved script for this blueprint): couple photo in the gold frame (window traced by flood fill inside the inner gold line);
+  family block, blank guest line (template rule), names box redrawn shorter for JOHN & VEDASTINA, date JUMAMOSI 28.11.2026, blank gold badge,
+  rows IBADA / UKUMBI / RANGI (+black/gold dots) / MAWASILIANO with names+roles, QR placeholder, Haflaway logo in place of ekadi.
+  v5_final_02: photo zoomed out (1.18 -> 1.0) and shifted right (CX 0.55) so Vedastina is fully in the frame; text unchanged.
+
+2026-11-16 BAG PARTY (client WhatsApp "Hw - Mpare cooling system", screenshot -> sources/client_chat_bagparty.png):
+  handwritten: "Mwaliko wa Bag Party, Familia ya John Samuel Pima wa Kitunda DSM"; dress code white, fascinator white or blue;
+  ukumbi nyumbani kwao Kitunda; bag party = sherehe ya kumpongeza kijana wao wa kiume (pre-wedding celebration).
+  User: use the blueprint just used on Franco -> blueprint_white_floral_gold_frame.jpeg (copied), build_v6.py (from FRANCO build_v2.py).
+  BagParty_v1_final_01: panel A = photo_john_vedastina.jpeg in gold arch + John & Vedastina + MWALIKO WA BAG PARTY + date;
+    panel B = family (as handwritten: John Samuel Pima), blank guest line, bag party wording, names, Muda | Ukumbi, Mawasiliano
+    (REUSED from wedding card: Samuel A. Mshote, Monica Mshote), Rangi white + blue chips, Nguo: White / Fascinator: White au Blue,
+    blank badge, QR placeholder, Haflaway logo.
+  PLACEHOLDERS: day, date, time (XXXX / XX.XX.2026 / saa XX:XX) -> rerun with DATE= DAY= TIME= env vars.
+  BagParty_v1_final_02 (client 2026-11-16 "Tarehe ni 22"): Jumapili 22.11.2026 (weekday verified); bag party = groom only ->
+    names "John Samwel Pima" (wedding spelling) on both panels, photo cropped to John (CW 430, CX 262) - Vedastina's hand still on his chest.
+    Still pending: start time (saa XX:XX), contacts confirmation, family-name line (handwritten "John Samuel Pima" vs groom name).
+  BagParty_v1_final_03: single page (invitation panel only, no photo) like the blueprint; SINGLE=0 rebuilds the two-panel version.
+  BagParty_v1_final_04: time from client 'saa 9 .30 alasiri' -> Muda: Kuanzia / Saa 9:30 alasiri; rest = final_03.
+  BagParty_v1_final_05 (client: 'Badilisha rangi huo green weka blue, nguo ni nyeupe hio blue itoe, fasnetor iko sawa'): blueprint green leaves -> royal blue (Lab a/b rotation, shading kept, no halo; LEAVES=green to undo); Rangi = white chip only; fascinator line unchanged.
+  BagParty_v1_final_06 (client: 'Kwenye mawasiliano toa andika Maria Kishere 0754853025, Rachel Mshote 0754279909'): contacts replaced; rest = final_05.
+  BagParty_v1_final_07 (client: 'Hapo kwenye jina anza na Adv John'): script name -> 'Adv. John Samwel Pima'; rest = final_06.
+  BagParty_v1_final_08 (client: 'hayo ya mwisho (wanayofuraha) na kwenye jina lianzwe adv john pima'): INAYO -> WANAYO FURAHA (client's choice); script name -> 'Adv. John Pima'; rest = final_07.
+  BagParty_v1_final_09 (client: the 'A' in Adv does not look like a capital A): name line font Great Vibes -> Parisienne (clear capital A); rest = final_08.

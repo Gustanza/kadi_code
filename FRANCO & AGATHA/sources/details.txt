@@ -1,0 +1,52 @@
+FRANCO & AGATHA (2026-11-15)
+Files (from ~/Downloads, 14:27-14:28):
+  blueprint_white_gold_oval_save_the_date.jpeg <- a67b0b016a5bc9f2b462471319484422.jpg.jpeg (736x1031; white & gold oval "Save the Date",
+     dummy "Winnie & Robert", Saturday April 11th 2025 at 2PM, St. Luke's Church Ntinda, Kampala - foreign template, wipe all its text)
+  photo_3U1A1802/1826/1839/1848/1858/1868.jpeg <- photographer originals (4300-5600 px wide), couple in black outfits
+     with gold gele, brown studio backdrop
+Details: NOT RECEIVED YET (family, full names, date, church + time, ukumbi + time, rangi, contacts, which photo)
+
+Client text (verbatim, 2026-11-15):
+  *Familia ya Mzee Charles Atilyo Yetula wa Kawe Dar-es-saalam
+  *Franco na Agatha
+  *28 November 2026
+  *kanisa Mt Maximillian Kolbe Mwenge Dar-es-saalam saa 9 Alasiri
+  *ukumbi Jaks hall Mbezi Afrikana 29 November 2026 saa 10 alasiri
+  *Rangi            <- left empty by the client
+  *Mawasiliano 0713398540 Enock Mayao / 0653099773 Jimmy Atilyo
+Interpretation: ibada Jumamosi 28/11/2026 saa 9:00 alasiri; sherehe/ukumbi Jumapili 29/11/2026 saa 10:00 alasiri (different days, as given);
+  spelling: Maximilian (saint's name), Africana, Dar es Salaam. Photo used: photo_3U1A1868 (head & shoulders crop).
+v1_final_01 (build_v1.py): oval blueprint emptied; "Mwaliko wa Harusi", family block, guest line, arch photo window,
+  Franco & Agatha, date pill JUMAMOSI | NOVEMBA 28 2026 | SAA 9:00 ALASIRI, ibada, ukumbi (Jumapili 29.11.2026), contacts, logo.
+  PENDING: rangi (empty), badge/QR (blueprint has none).
+
+2026-11-15 user: "i wanted you to make a save the date card with close look like the blueprint" (v1 invitation kept as an extra)
+  SaveTheDate_v1_final_01 (build_std_v1.py): blueprint kept (original "Save the Date" script, pill + dark box, rings, ribbons);
+    couple = photo_3U1A1868 cut out of the brown studio backdrop (cutout_3U1A1868.py, shape-seeded GrabCut -> photo_3U1A1868_cutout.png),
+    faded into white at the bottom like the blueprint; names Franco & Agatha (Alex Brush + bold "&");
+    pill JUMAMOSI | Novemba 28 2026 | SAA 9 ALASIRI; "@Kanisa la Mt. Maximilian Kolbe, Mwenge, Dar es Salaam"; small Haflaway logo under the rings.
+  SaveTheDate_v1_final_02: user removed the background himself (Untitled design.png -> photo_3U1A1868_cutout_client.png, 576x720 on white);
+    cutout_from_client.py turns it into a mask on the full-quality original -> photo_3U1A1868_cutout.png; rest unchanged.
+    (final_01 = my GrabCut cut-out, photo_3U1A1868_cutout_auto.png)
+  SaveTheDate_v1_final_03 (client 2026-11-15: 'Ndoa trh 28 na Reception trh 29' / save the date = 29): pill JUMAPILI | Novemba 29 2026 | SAA 10 ALASIRI,
+    venue line '@Jaks Hall, Mbezi Africana, Dar es Salaam'; rest = final_02.
+
+2026-11-16 client: "Picha ya kadi ya harusi naomba nitolee sample 2 (hii nguo nyeupe na ile ya nguo za ki Naija)"
+  New blueprint (~/Downloads/WhatsApp Image 2026-11-15 at 10.03.26 PM.jpeg) -> blueprint_white_floral_gold_frame.jpeg
+     (Envaita white flowers + gold frame, dummy Dotto & Lilian, 955x1280, no photo slot)
+  New photo IMG_2876.JPG.jpeg -> photo_IMG_2876_white.jpeg (couple in white, blue-grey wall)
+  build_v2.py (K=2.5): two panels side by side (A = blueprint art + photo arch + names + MWALIKO WA HARUSI + 28.11.2026;
+     B = full invitation: family, blank guest line, names, Jumamosi 28.11.2026, Ibada | Ukumbi columns, Mawasiliano,
+     Rangi = blueprint Green/Gold/OffWhite (PENDING - client never gave colours), blank brown badge + QR placeholder, Haflaway logo).
+     Panel A: old badge/QR removed, frame line + paper rebuilt.
+  v2_final_01 = PHOTO=white (IMG_2876)   v3_final_01 = PHOTO=naija (photo_3U1A1868, brown studio backdrop)
+2026-11-16 client dress code: PINK BLUE BLACK (+ Pantone Fondant / Airy Blue moodboard) -> dress_code_pink_blue_black.jpeg, dress_code_pink_lightblue_pantone.jpeg
+  Rangi: Pink #E7BACC (Fondant), Light Blue #A9C6ED (Airy Blue), Black #111111 + "(Pink, Light Blue & Black)" (blueprint chips cleaned)
+  v2_final_02 (PHOTO=white) and v3_final_02 (PHOTO=naija): new Rangi only; rest = final_01.
+2026-11-16 client: no green and no gold on their card -> art recoloured into their palette (build_v2.py PALETTE=pinkblue, default; PALETTE=orig = old look)
+  gold (ferns, frame line, berries, flower centres) -> pink (Fondant direction in Lab, lightness kept);
+  green leaves -> airy light blue (leaf mask = green seeds, specks removed, grown into the near-black leaf shadows);
+  card text/lines/icons/arch that were gold -> deep rose (176,84,116); blank badge -> pink (226,160,182). Haflaway logo unchanged.
+  v2_final_03 (PHOTO=white), v3_final_03 (PHOTO=naija).
+2026-11-16 client: 'Tarehe ya event iwe 29' -> main date Jumapili 29.11.2026 (both panels); Ibada column now carries its own date 'Jumamosi 28.11.2026, Saa 9:00 Alasiri'; Ukumbi column: Jaks Hall, Mbezi Africana, Saa 10:00 Alasiri. v2_final_04 (white), v3_final_04 (naija).
+2026-11-16 Jimmy Atilyo's number 0653 099 773 -> 0653 099 772. v2_final_05 (white), v3_final_05 (naija); rest = final_04.

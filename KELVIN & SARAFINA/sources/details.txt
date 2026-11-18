@@ -1,0 +1,29 @@
+KELVIN & SARAFINA - HARUSI
+Client text (2026-11-12):
+  Majina: Familia ya Bi & Bw Aniceth Mgimbila
+  Wanandoa Kelvin Mgimbila, sarafina Kimanga
+  Tar: 13/11/2026  (= Ijumaa)
+  Ukumbi: Madibira mission
+Missing -> xxxx on the cards: couple photo, Ibada ya Ndoa (kanisa + saa), ukumbi time, rangi, mawasiliano.
+Blueprints (from ~/Downloads, 2026-11-12):
+  blueprint_A.jpeg <- artworks.jpeg      (Envaita "Dr. Sadiki & Vivian": navy watercolour, torn gold edge + photo card) NEW
+  blueprint_B.jpeg <- artworks (1).jpeg  (= ELIAS & JANE/sources/artworks.jpeg, white & gold arch)
+
+2026-11-12 v1_final_01 (build_v1.py): blueprint B, from JOHN PIMA build_v4.py; photo panel = placeholder.
+2026-11-12 v2_final_01 (build_v2.py): blueprint A, all template text wiped inside the navy part; left card = placeholder
+  with gold dust, names in gold script, NOVEMBA | IJUMAA 13 | 2026; DOUBLE badge left blank maroon; QR kept.
+2026-11-12 photo_kelvin_sarafina.jpeg <- WhatsApp Image 2026-11-12 at 9.56.12 AM.jpeg (960x1280)
+  v1_final_02 / v2_final_02: couple photo in place of the placeholder (v2: photo fades to dark from mid-height for the gold names).
+
+2026-11-12 - client details via WhatsApp (Hw - Cissy):
+  Ibada saa 4 asubuhi (10:00) - church name still missing (xxxx)
+  Ukumbi saa 1:00 jioni mpaka 6 usiku (19:00-24:00)
+  Dress code: rusty orange, gold, maroon, black
+  Bride's name spelled "Saraphina"
+  Contacts: 0675 656 176, 0680 104 878 (names pending -> xxxx)
+  -> Kelvin_&_Saraphina_v1_final_03 / v2_final_03 (v2: Rangi block moved up 15px to clear the logo)
+
+2026-11-12 - user: no xxxx on the card. Church name + contact names were never given -> Ibada shows time only, contacts numbers only.
+  -> Kelvin_&_Saraphina_v1_final_04 / v2_final_04
+
+2026-11-12 - client: ibada at Madibira Mission -> added under Ibada ya Ndoa. -> v1_final_05 / v2_final_05

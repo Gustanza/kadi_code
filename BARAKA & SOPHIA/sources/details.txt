@@ -1,0 +1,23 @@
+BARAKA & SOPHIA - WEDDING (sherehe ya harusi; nikah already done) - 2026-11-17
+Sources (from ~/Downloads):
+  artworks.jpeg -> blueprint_twopanel_photo_blush_pampas.jpeg (1834x1286 Envaita mock-up "Sam-Clinton & Faith": photo panel + text panel)
+  IMG-20261117-WA0078 -> photo_A_cheek.jpeg (bride's hand on groom's cheek, eyes down)
+  IMG-20261117-WA0079 -> photo_B_embrace.jpeg (embrace, both facing camera) - USED in v1
+Client text (verbatim):
+  1. Familia ya bwana twaha fungafunga na Redempta henjewele
+  2. Baraka twaha na sophia hussein
+  3. jumamosi, tarehe 21/11/2026, saa 12 jioni
+  4. Landmark hotel, ubungo, Dar es salam
+  5. Rangi Emerald green na Gold
+  6. Redempta henjewele 0723913704 / Petro Mwambeleko 0656-124423
+  User: "Kanisani hamna... ndoa ilishafungwa muda" -> no Ibada block.
+Interpretation: Jumamosi 21/11/2026 verified; saa 12 jioni = 18:00; family "Bw. Twaha Fungafunga na Bi. Redempta Henjewele"
+  (no residence given); names on card first names only (Baraka & Sophia).
+v1_final_01 (build_v1.py, K=2 -> 3668x2572):
+  left panel rebuilt: photo_B full panel, deep-emerald fade top + bottom, gold frame line, "TUNAKUKARIBISHA / KWENYE SHEREHE YA /
+  HARUSI YA", BARAKA & SOPHIA (Cormorant caps + Great Vibes &), 21.11.2026, TENGA TAREHE, Haflaway white logo (Envaita removed).
+  right panel: dummy text removed, blush pampas recoloured champagne gold (Lab rotation); emerald text: family block, blank guest line,
+  Kwenye sherehe ya harusi ya vijana wao wapendwa, Baraka & Sophia (gold script), Jumamosi, Tarehe 21/11/2026, Sherehe: Landmark Hotel -
+  Ubungo, Dar es Salaam, Kuanzia Saa 12:00 Jioni; Mawasiliano 2 lines; Rangi emerald + gold chips + caption; QR placeholder;
+  blank emerald badge. Blueprint "NB: Tafadhali fika na kadi hii | Kids..." removed (not given by client).
+  Alt photo: PHOTO=photo_A_cheek.jpeg python build_v1.py Baraka_&_Sophia_v1_final_01_PHOTO_A.png

@@ -1,0 +1,36 @@
+KITCHEN PARTY - LATIFA HELLEN
+Bi. Valerie Chilipweli Ling'ande wa Mbweni Dar es salaam anayo furaha kukuaalika katika Kitchen Party ya Binti yake Latifa Hellen
+Jumapili 15/11/2026, Ukumbi wa Jaks - Africana
+Mawasiliano: 0784362180 Maria Haule, 0784268720 Irene Mdami
+Files: blueprint_green_oval.jpeg (Envaita two-panel), photo_latifa.jpg (studio portrait), dress_code.jpg (5 shades of sage green),
+timetable.jpg (16:00-22:00 -> "kuanzia saa 10:00 jioni" taken from here)
+2026-11-06: red studio backdrop clashed with the green design -> Latifa cut out and placed on a cream/sage backdrop (sources/photo_latifa_sage_backdrop.jpg) -> v1_final_02
+Text fitted to the oval with a fixed margin from the gold border (v1_final_03)
+v1_final_04: final_02 layout kept; only the 'Bi. Valerie Chilipweli Ling'ande' line shrunk to clear the gold curve
+v1_final_05: photo zoomed in (head to mid-thigh) like the blueprint
+v1_final_06: 'Haflaway' text replaced with the official Concept 4 green logo
+v1_final_07: logo tagline made bolder/larger/deeper gold (logo files regenerated), logo slightly larger on card
+2026-11-07: two new blueprints dropped in the folder -> sources/blueprint_navy_gold.jpeg (Envaita navy & gold) and sources/blueprint_black_gold.jpg (ekadi Ekadi_109, same as Hafidh)
+  v2_final_01 (build_v2.py): navy & gold, same content as v1_final_07 incl. closing paragraph; date | ukumbi columns, sage swatches; badge blank, QR placeholder, Haflaway logo
+  v3_final_01 (build_v3.py): black & gold, label/value rows; closing paragraph + "Karibuni sana" left out (no room)
+  v3_final_02: Ukumbi/Rangi/Mawasiliano label-value block centred on the card axis (x 897-2123, centre 1510)
+2026-11-07 client (Irene Chilipweli): "natamani sana sana background ya card iwe rangi ya Shughuli yetu not dark blue either black" -> sage
+  v3_final_03_DEEP_SAGE (#324D3E) and v3_final_03_SAGE (#748B6F, gold text -> champagne for contrast): BG=<name> python build_v3.py <out>
+  v2 (navy) recolour tried and dropped: its blue flowers + navy vignette turn muddy on sage
+  v3_final_04_SAGE / _DEEP_SAGE: smoother recolour (3 agent methods compared + reviewed; Lab tone-map 'B' won, then fixed dot halos/petal edges) -> skill scripts/dark_recolor.py
+2026-11-07 new blueprint "Sage Green Luxurious Wedding Invitation.png" -> sources/blueprint_sage_luxurious.png (already had Latifa's text, sage bg ~ (116,139,104) = 2nd circle)
+  client: "Pale chini ya rangi za shughuli weka Theme: Nigerian attire"
+  v4_final_01 (build_v4.py, 2x): lower block redrawn - correct 5 sage swatches, NEW "Theme: Nigerian Attire" under the colours, typo utafanya -> utaifanya, re-spaced to clear the bottom leaves
+  v4_final_02: 'Karibuni sana, Familia ya Bi. Valerie' removed; Theme/Mawasiliano/contacts/paragraph enlarged to match the upper half (caps = Playfair 22.5 like the family lines), paragraph re-broken into 5 lines
+  v4_final_03: venue 'Jaks - Africana' -> 'Jaks Hall - Africana' (client 2026-11-08: 'usisahau Jaks Hall'), same font/size/colour as the blueprint line
+2026-11-15 SEND-OFF (client WhatsApp, "Mteja Kapiga"): Familia ya Bw. & Bi. Ling'ande wa Mbweni Dar es salaam, kumuaga binti yao (send off)
+  "Latifah- Hellen", Ijumaa 20/11/2026 (weekday verified), JC Hall Bahari Beach, kuanzia saa 12.00 jioni (18:00).
+  Majibu kwa wasiofika: Evans Maseke 0762467145, Irene Mdami 0784268720. Client: "Ingawa napenda light background".
+  Forwarded colour photo (sources/client_chat_sendoff_colours.png) -> read as Rangi: Blush Pink, Magenta, Maroon (Wine), Black.
+  New blueprint artworks.jpeg -> sources/blueprint_navy_watercolor_twopanel.jpeg (Envaita two-panel, navy watercolour + torn gold edge)
+  v5_final_01 (build_v5.py, 2x): right panel recoloured light (cream/blush paper, wine wash, gold edge kept), wine/gold text;
+    left panel = Latifa cut out onto blush backdrop (sources/photo_latifa_blush_backdrop.jpg), names + date strip, gold sparkles.
+    Name spelled "Latifah" as in the send-off message (Kitchen Party cards used "Latifa"). Badge blank, QR placeholder, Haflaway logo.
+    Left out (no room): "Karibu sana tujumuike pamoja kumuaga na kufurahi na familia" / "Mungu Akubariki!"
+  v5_final_02: photo swapped to the user's "HELLEN 3" (~/Downloads/HELLEN 3.jpg.jpeg -> sources/photo_latifa_hellen3.jpeg,
+    lilac gown + gele, real light interior kept); crop gele -> knees, 1024x1536 source upscaled ~1.8x. Rest identical to final_01.

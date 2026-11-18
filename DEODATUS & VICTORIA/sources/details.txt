@@ -1,0 +1,30 @@
+(Taken from the existing card outputs/DEODATUS-VICTORIA-CARD.png - no original details file.)
+Familia ya Deus Evarista, wanayo furaha kukualika / kuwaalika
+Kwenye harusi ya wapendwa wao: Deodatus & Victoria
+Jumamosi 14 Novemba (2026 assumed - 14/11/2026 is a Saturday)
+Kanisa: Parokia ya Mt. Maria, Kimara Mwisho - saa 6:00 mchana
+Ukumbi: Mawela Social Hall - saa 12:00 jioni
+Dress code: maroon, white, gold, green (from the card swatches)
+Mawasiliano: 0769028699
+
+--- 2026-10-26 ---
+New studio photo from ~/Downloads/0J7A9238.jpg.jpeg -> sources/photo_new_0J7A9238.jpeg
+v1_final_02: same card, photo swapped.  v2_final_01: white & gold arch template (from ELIAS & JANE/sources/artworks.jpeg).
+v3-v7 (2026-10-26): more options with the new photo -
+ v3 green & gold side panel (ELIAS & JANE/sources/el_temp_01.jpeg)
+ v4 black & gold photo frame (ELIAS & JANE/sources/artwork-05.jpg)
+ v5 gold line-art florals (ELIAS & JANE/sources/artworks (3).jpeg)
+ v6 portrait with white flourish (ELIAS & JANE/sources/artwork-4.jpg)
+ v7 photo fading into soft grey, sprigs (KAREN MGWALU/1777347351003.jpg)
+All: blank badge above QR (system fills single/double), Rangi maroon/white/gold/green.
+
+--- 2026-11-09 ---
+CLIENT SELECTED v2_final_01 (white & gold arch). All further corrections go on v2.
+Client: "muda wa ibada ya ndoa itakua saa saba mchana na sio saa sita" -> Ibada: saa 7:00 mchana (13:00).
+v2_final_02: only the Ibada time line changed (build script for v2 was lost; patched the delivered PNG,
+Playfair Display Italic 500 @36.75px, ink #302A26). Script: sources/edit_v2_final_02.py
+v2_PORTRAIT_final_01 (2026-11-09, for PRINT, taller than wide): photo panel on top, gold card below (from v2_final_02,
+incl. saa 7:00). 2058x5202 px. Photo re-cropped full width from sources/photo_new_0J7A9238.jpeg, names Great Vibes,
+date Poppins, same colours. Script: sources/build_v2_portrait.py
+2026-11-09: client added 2nd contact "+255 742 010 203" -> Mawasiliano now 0769 028 699 / 0742 010 203 (same font/colour, line below).
+  v2_final_03 (landscape, script sources/edit_v2_final_03.py) + v2_PORTRAIT_final_02 (print, rebuilt from v2_final_03).

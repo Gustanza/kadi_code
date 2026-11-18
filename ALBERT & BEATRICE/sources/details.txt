@@ -1,0 +1,62 @@
+ALBERT & BEATRICE - HARUSI (via Haflaway Central / Haflaway Office, 2026-11-13, urgent: "anasubiria aione kadi")
+Client text (verbatim):
+  Albert Libent
+  Famulia ya libent raphael ishabailu wa majumba sita ukonga
+  Ibada itafanyika parokia ya msimbazi mda 9.:00 alasiri
+  Na baadae katika tafrija itakayofanyija ukumbi wa grand paradise (platnum) kuanzia saa 12:00
+  Rangi ya ukumbi ni hiyo ligth blue kahawia
+  Mawasiliano 0715 194 900 / 0621 918 027 / 0788 016 290
+  Maharusi beatrice adeltus Na albert libent
+  Sherehe 21/11/2026
+  0694026550 toa namba inayoishia 27 weka hiyo   -> 0621 918 027 replaced by 0694 026 550
+  Frank: "set ile ile ya jana" ; user: use the Deodatus & Victoria blueprint (white & gold arch)
+Interpretation: 21/11/2026 = Jumamosi; 12:00 = saa 12 jioni; "Familia ya Libent Raphael Ishabailu" kept as given (no Bw./Bi.);
+  Grand Paradise (Platinum) spelled correctly.
+Sources: blueprint_white_gold_arch.jpeg (= ELIAS & JANE/sources/artworks.jpeg), photo_A.jpeg / photo_B.jpeg <- WhatsApp 12.18.26 / 12.18.27 PM
+
+v1_final_01 (photo_A) + v1_final_01_PHOTO_B (photo_B, CX=0.38): all details as above, blank badge + QR placeholder.
+
+2026-11-13 v1_final_02 (photo_A) - details taken from the client's own card (client_card_reference.jpeg, WhatsApp 5.34.55 PM):
+  Familia ya Bw. & Bi. Libent Raphael Ishabailu / wa Ukonga Majumba Sita, Dar es Salaam;
+  Ibada: Kanisa Katoliki, Parokia ya Msimbazi; Ukumbi + "Yombo Vituka, Mwisho wa Lami";
+  Rangi now 3 chips sampled from their card: kahawia (153,100,52), blue (40,155,240), nyeupe -> "(Kahawia, Blue & Nyeupe)";
+  added "Watoto tunawapenda, lakini hawaruhusiwi." Names kept as first names (their card: Albert Libent & Beatrice Adelitus).
+
+2026-11-13 evening - 4 more cards (user: 3 blueprints from Downloads + fix the client's own card). Content = client's card:
+  Familia ya Bw. & Bi. Libent Raphael Ishabailu, wa Ukonga Majumba Sita, Dar es Salaam; Albert Libent & Beatrice Adelitus;
+  Jumamosi 21/11/2026; Ibada Kanisa Katoliki, Parokia ya Msimbazi saa 9:00 alasiri; Ukumbi Grand Paradise (Platinum),
+  Yombo Vituka Mwisho wa Lami, kuanzia saa 12:00 jioni; Rangi kahawia/blue/nyeupe; 0715 194 900 / 0694 026 550 / 0788 016 290;
+  "Watoto tunawapenda, lakini hawaruhusiwi".
+  Blueprints (Haflaway's own earlier cards, Downloads 19:02): blueprint_cream_maroon_peter_daud.png ("Peter Daud.png"),
+  blueprint_frosted_photo_nestory_joyce.png ("Nestory & Joyce N01.png"), blueprint_red_engagement_piter_alex.png ("Piter  Alex.png")
+  v2_final_01 (build_v2.py): cream & maroon, photo_A in rounded frame, info rows w/ icons, blank gold badge pill + QR placeholder.
+  v3_final_01 (build_v3.py): photo_B full-bleed (zoomed so faces show above the panel), frosted panel, blank badge + QR placeholder.
+  v4_final_01 (build_v4.py): red roses, engagement wording -> MWALIKO WA HARUSI; photo_A in gold arch (frame bottom redrawn
+     where the template model's legs stepped out); no badge/QR in this design.
+  v5_final_01 (build_v5.py): the client's own card (client_card_reference.jpeg) - client comment "Hayo maandishi ya chini ya
+     ukumbi tafuta colour inayosomeka": lines under Grand Paradise re-set in white/gold on a navy band; 12:000 -> 12:00.
+     Rest of their card unchanged (upscaled 3x from 743 px, so soft).
+
+2026-11-15 v6_final_01 (build_v6.py): user "v5 should still feel like v5, but bring in the centre container idea from v3".
+  v5 kept (white top block, gold flowers, rings, Mawasiliano box, dress-code bar). Photo window (120..632 x 306..880)
+  rebuilt from the clean photo_A (their card had it stretched + text on it): faces visible at top, v3-style frosted panel
+  with faint outer frame over the bodies; all event text re-set inside it in v5 colours (gold names w/ navy edge,
+  blue date, black body, serif "Grand Paradise", gold/navy ukumbi lines). Old text spilling past the photo removed.
+  "Platnum" -> "Platinum". Date kept as on their card ("21 November, 2026").
+2026-11-15 v6_final_02: user "maybe center these" (top block). MWALIKO WA HARUSI + the 4 family lines lifted off and
+  re-placed centred on the card axis (their own lettering, not re-typed). Title + "Familia ya..." line scaled to ~71% to
+  clear the gold leaves top-left (leaves reach x=168); "wa Ukonga..." 93%; last two lines 100%. final_01 kept
+  (rebuild it with TOPCENTER=0 ... build_v6.py Albert_&_Beatrice_v6_final_01.png).
+2026-11-15 v6_final_03: user "these too" (bottom block) + picked "card centre". Mawasiliano (full size), the phone line
+  (scaled ~79% so it ends at x=570 like on their card, over the flower edge) and the dress-code bar all centred on the
+  card axis, like the top block. White box repainted (old glow gone); old digits on the flower wiped + feathered; bar moved
+  whole (now covers a few more petals). final_01/02 kept (BOTCENTER=0 / TOPCENTER=0 to rebuild them).
+2026-11-16 user downloaded the client's current card (~/Downloads/WhatsApp Image 2026-11-16 at 10.11.47 PM.jpeg, 853x1280)
+  -> sources/client_card_2026-11-16.jpeg. Request: the "A" in Albert looked like a small "a" (Great Vibes) -> make it a real capital A.
+  v7_final_01 (build_v7.py, 3x = 2559x3840): old A erased; new A = Parisienne capital (82% width, same height/baseline,
+  slightly emboldened, same brown); "lbert Libent" re-laid 10px right (SHIFT) so the line stays centred (x 40..437).
+  NOTE: "Adelitus" in Beatrice's name has the same Great Vibes A - unchanged (not requested).
+2026-11-17 v7_final_02: client: the "A" in Adelitus is still an issue -> same fix: old Great Vibes A erased, Parisienne capital A
+  (76% width, old height y571-627); "Beatrice" re-laid 11px left (now starts x~37, in line with "Albert"), "delitus" 8px right (DSH).
+  final_01 = Albert's A only.
+2026-11-17 v7_final_03: client: Rangi 'Nyeupe' -> 'Off White'. Caption re-typed '(Kahawia, Blue & Off White)' (Playfair Italic 600, ink 88,66,46, same left edge); white chip tinted off-white (246,238,226). NOTE: chips are white/brown/brown - no blue chip although caption says Blue (as on client's card).
