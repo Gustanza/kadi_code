@@ -1,0 +1,14 @@
+FR. MAXIMILIAN WAMBURA - ANNIVERSARY (UPADRISHO) (2026-11-18)
+Blueprint: his own birthday poster, ~/Downloads/WhatsApp Image 2026-11-17 at 3.10.28 PM.jpeg -> blueprint_birthday_kolbe_sky.jpeg
+  (672x896, low-res WhatsApp copy: sky + light rays, crown, "Happy Birthday", Fr. Maximilian Wambura, St. Maximilian Kolbe x2,
+   cake, "You are loved" banner)
+Client text (verbatim):
+  Venue:St. Peter's Osterbay / Date: 22/11/2026 / Misa Saa 10:30 Jioni / Ukumbi: Cardinal  Rugambwa Social Hall /
+  Kuingia Ukumbini saa 1:00 Usiku / Mbiu yangu : Haikuwa rahisi kulitangaza Neno
+  User: "Toa hayo maneno ya Birthday weka ya Anniversary"
+Interpretation: 22/11/2026 = Jumapili (verified); "Osterbay" -> Oysterbay; anniversary assumed = Upadrisho (priestly) - CONFIRM
+  (number of years not given).
+v1_final_01 (build_v1.py, 3x upscale): Happy Birthday -> Happy Anniversary (gold script); "Zawadi ya uhai" -> "Zawadi ya Upadri";
+  paragraph "kumbukizi ya kuzaliwa kwako leo" -> "kumbukizi ya Upadrisho wako"; cake + "You are loved" covered by brown/gold
+  plaque: Mbiu yangu "Haikuwa rahisi kulitangaza Neno" | Misa Takatifu Jumapili 22 Novemba 2026, saa 10:30 jioni, St. Peter's,
+  Oysterbay | Sherehe Cardinal Rugambwa Social Hall, kuingia ukumbini saa 1:00 usiku | Haflaway logo. No badge/QR.

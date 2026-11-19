@@ -1,0 +1,22 @@
+HENRY & DORIS - HARUSI (2026-11-18)
+Blueprint: Envaita "Brown-&-Burnt-Orange-Invitation" (template 42/235) = JOSHUA MSETI/sources/artworks (2).jpeg
+  -> blueprint_brown_roses_pampas.jpeg (1526x2120, dummy "Denis & Mishel", Mr & Mrs Praygod Mangi guest, DOUBLE badge + QR)
+Client text (verbatim):
+  1. Jina la Familia Gabriel Mselle
+  2. Majina ya Maharusi Henry na Doris
+  3. Siku, Tarehe na Saa Jumamosi Yarehe 21 November 2026 Misaa saa nane St Joseph Cathedral Posta
+  4. Jina la Kanisa itakapofanyikia St Joseph Cathedral Posta
+  4. Mahali / Ukumbi Whitesand Hotel Terrace Garden
+  5. Dresss code (shades of brown)
+  6. Oliva Gabriel Mselle 0714 545 460 / Junior Liberath Massawe 065 408 3886
+Interpretation: Jumamosi 21/11/2026 (weekday verified); Misa saa nane = 8:00 mchana (14:00);
+  "Whitesand Hotel" -> WHITE SANDS HOTEL (Dar es Salaam) - CONFIRM; reception time not given -> left out, ASK client.
+  065 408 3886 -> 0654 083 886.
+v1_final_01 (build_v1.py, 2x): dummy text, Envaita logo, colour chips and "DOUBLE" removed (flat bg 68,29,22);
+  Familia ya Gabriel Mselle inayo furaha kukualika; blank guest line; kwenye sherehe ya harusi ya watoto wao wapendwa;
+  HENRY na DORIS; Itakayofanyika Jumamosi, 21 Novemba 2026; Misa Takatifu St. Joseph Cathedral, Posta saa 8:00 mchana;
+  Sherehe White Sands Hotel, Terrace Garden; Mawasiliano 2 contacts; Rangi 4 brown chips (Shades of Brown);
+  blank badge, QR placeholder kept, Haflaway logo (concept_4_green white) in place of Envaita.
+
+--- 2026-11-18 client: muda wa sherehe ni saa 12 jioni ---
+-> "TERRACE GARDEN, SAA 12:00 JIONI" (same line, like the blueprint's "THE KILIMANJARO, 6:30PM") -> v1_final_02
